@@ -31,8 +31,12 @@
                         <goals>
                             <goal>makeBom</goal>
                         </goals>
+                        <phase>verify</phase>
                     </execution>
                 </executions>
+                <configuration>
+                    <outputFormat>json</outputFormat> <!-- Specify JSON format here -->
+                </configuration>
             </plugin>
         </plugins>
     </build>
