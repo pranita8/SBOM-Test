@@ -8,8 +8,8 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>child-component-1</artifactId>
-    <packaging>jar</packaging> <!-- Ensure this is set to 'jar' -->
-    
+    <packaging>jar</packaging>
+
     <dependencies>
         <!-- Spring Framework for dependency injection and other features -->
         <dependency>
