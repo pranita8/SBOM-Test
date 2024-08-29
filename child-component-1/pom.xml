@@ -8,7 +8,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>child-component-1</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    
+    <modules>
+        <module>grandchild-component</module>
+    </modules>
 
     <dependencies>
         <!-- Spring Framework for dependency injection and other features -->
@@ -26,7 +30,4 @@
         </dependency>
     </dependencies>
 
-    <modules>
-        <module>grandchild-component</module>
-    </modules>
 </project>
