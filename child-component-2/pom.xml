@@ -6,7 +6,6 @@
         <groupId>com.example</groupId>
         <artifactId>sbom-test</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>child-component-2</artifactId>
