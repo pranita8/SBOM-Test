@@ -1,4 +1,4 @@
-package com.example.childcomponent2;
+package com.example.ChildComponent2;
 
 public class SomeOtherClass {
     public void doSomethingElse() {

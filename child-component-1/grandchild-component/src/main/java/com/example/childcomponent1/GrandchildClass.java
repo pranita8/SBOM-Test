@@ -1,4 +1,4 @@
-package com.example.childcomponent1.grandchildcomponent;
+package com.example.childcomponent1;
 
 public class GrandchildClass {
     public void doSomethingGrand() {
